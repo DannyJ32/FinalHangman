@@ -237,7 +237,7 @@ public class HangmanLogic {
                     lettersGuessed++;
                 }
             }
-            if (userInput == 2) {
+            else if (userInput == 2) {
                 System.out.println();
                 while (true) {
                     System.out.println();
@@ -293,7 +293,7 @@ public class HangmanLogic {
 
                 }
             }
-            if (userInput == 3) {
+            else if (userInput == 3) {
                 System.out.println();
                 System.out.println("********Inventory********");
                 if (hints > 0) {
@@ -306,15 +306,17 @@ public class HangmanLogic {
                 }
                 System.out.println("*************************");
             }
-            if (userInput == 4) {
+            else if (userInput == 4) {
                 System.out.println();
                 System.out.println("********Statistics********");
                 stats();
                 System.out.println("**************************");
             }
-            if (userInput == 0) {
+            else if (userInput == 0) {
                 saveStats();
                 break;
+            } else {
+                System.out.println("Invalid Option. Try again");
             }
         }
     }
