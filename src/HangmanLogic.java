@@ -85,8 +85,6 @@ public class HangmanLogic {
         powerUpsUsed = 0;
         coinsSpent = 0;
         leastLettersGuessed = 999;
-        HangmanLogic game = new HangmanLogic(scan);  // Create the HangmanLogic object
-        HangmanDrawPicture drawer = new HangmanDrawPicture();  // Create the HangmanDrawPicture object
         getStats();
     }
     public HangmanLogic() {
