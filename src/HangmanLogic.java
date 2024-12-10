@@ -238,8 +238,8 @@ public class HangmanLogic {
                     System.out.println();
                     System.out.println("------------------Shop------------------");
                     System.out.println("Your coins: " + coins);
-                    System.out.println("1.) Buy Hint -> 1 Point");
-                    System.out.println("2.) Buy Powerup -> 3 Points");
+                    System.out.println("1.) Buy Hint -> 1 Coins");
+                    System.out.println("2.) Buy Powerup -> 3 Coins");
                     System.out.println("9.) View Description");
                     System.out.println("0.) Exit Shop");
                     System.out.print("Enter choice: ");
