@@ -1,4 +1,12 @@
-package data;
-
-public class txt {
-}
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
