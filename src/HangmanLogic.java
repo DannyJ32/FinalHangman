@@ -124,6 +124,13 @@ public class HangmanLogic {
                 roundsPlayed++;
                 System.out.print("Easy, Medium, or Hard?: ");
                 userDifficulty = scan.nextLine();
+                userDifficulty = userDifficulty.toUpperCase();
+
+                while (!(userDifficulty.equals("EASY") || userDifficulty.equals("MEDIUM") || userDifficulty.equals("HARD"))) {
+                    System.out.print("Invalid choice. Please enter Easy, Medium, or Hard: ");
+                    userDifficulty = scan.nextLine().toUpperCase();
+                }
+
                 strArray = switch (userDifficulty.toUpperCase()) { //Chooses Array
                     case "EASY" -> easyArray;
                     case "MEDIUM" -> mediumArray;
